@@ -3,6 +3,10 @@
 div
 {
   margin: 70px;
+  background-color: #ffffff24;
+  border-radius: 15px;
+  padding: 50px;
+  display: inline-block;
 }
 
 h1
@@ -13,7 +17,10 @@ h1
 
 body
 {
-  background-color: #333333;
+  text-align: center;
+  background-color: #282828;
+  background-attachment: fixed;
   font-family: 'Rubik', sans-serif;
-  color: #cdece6;
+  color: #ffffff;
+  filter: drop-shadow(1px 1px 5px #000000)
 }
