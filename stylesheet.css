@@ -30,16 +30,19 @@ body
 
 }
 
-button
+.button
 {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
+  text-decoration: none;
 
   background-color: #fce095;
   border: 2px solid #000000;
+  color:#000000;
 
   border-radius: 2px;
   padding: 12px;
+  line-height:45px;
 
   filter: drop-shadow(3px 3px 0 #00000098);
   
@@ -47,7 +50,7 @@ button
   cursor:pointer;
 }
 
-button:hover
+.button:hover
 {
   background-color: #dab46f;
 }
