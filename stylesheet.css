@@ -2,75 +2,73 @@
 
 div
 {
-  margin: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+
   padding: 30px;
-  border-radius: 2px;
-  display: inline-block;
-  width: 600px;
+  width: 40%;
+
+  border: transparent;
+  border-radius: 16px;
 
   background-color: #ffffff;
-  border: 4px solid #2c2c2c;
 
-  filter: drop-shadow(3px 3px 0 #2c2c2ca5)
+  filter: drop-shadow(8px 8px 5px #2c2c2c23);
 }
 
 .project
 {
   margin: 10px;
-  padding: 30px;
-  width: 500px;
+  width: 90%;
 
-  background-color: #ffffff;
-  background-image: 
-    linear-gradient(to bottom, #ffffff64, #f1f1f1b1),  
-    radial-gradient(circle, #f3f3f3 8px, transparent 2px),
-    radial-gradient(circle, #e8e8e8 8.2px, transparent 2px);
-  background-size:  auto 100%, 30px 30px, 30px 30px;
-  background-repeat: no-repeat, repeat, repeat, no-repeat;
-  background-position: center bottom, 0 0, 1px 1px;
+  margin: auto;
+  
+  background-color: #f3f3f3;
 }
 
-h1
-{
-  font-weight: thick;
-  font-size: 24px;
+.demo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  margin-top: 15px;
+  border-radius: 15px;
+
+  filter: drop-shadow(8px 8px 5px #2c2c2c23);
 }
 
 body
 {
-  color: #2c2c2c;
-  
   text-align: center;
   font-family: 'Rubik', sans-serif;
 
+  color: #2c2c2c;
   background-color: #4daecf;
-  background-image: 
-    linear-gradient(to bottom, #4dafcf64, #6ce1e1b1),  
-    radial-gradient(circle, #6ccfe1 8px, transparent 2px),
-    radial-gradient(circle, #43adc7 8.2px, transparent 2px);
-  background-size:  auto 100%, 30px 30px, 30px 30px;
-  background-repeat: no-repeat, repeat, repeat, no-repeat;
-  background-position: center bottom, 0 0, 1px 1px;
-  
-  background-attachment: fixed;
+}
+
+footer{
+  bottom: 0;
+  position: absolute;
+  padding: 15px;
 }
 
 .button
 {
+  padding: 12px;
+  line-height:45px;
+  
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   text-decoration: none;
 
   background-color: #fce095;
-  background-blend-mode: multiply;
-  border: 3.5px solid #2c2c2c;
   color:#2c2c2c;
 
-  border-radius: 2px;
-  padding: 12px;
-  line-height:45px;
+  border: transparent;
+  border-radius: 16px;
 
-  filter: drop-shadow(3px 3px 0 #2c2c2ca5);
+  filter: drop-shadow(8px 8px 5px #2c2c2c23);
   
   transition-duration: 0.15s;
   cursor:pointer;
