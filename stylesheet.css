@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
 div
 {
   margin-left: 30%;
@@ -9,12 +7,9 @@ div
   padding: 30px;
   width: 40%;
 
-  border: transparent;
-  border-radius: 16px;
+  border: solid, 3px, #111111;
 
   background-color: #ffffff;
-
-  filter: drop-shadow(8px 8px 5px #2c2c2c23);
 }
 
 .project
@@ -33,18 +28,16 @@ div
   object-fit: cover;
 
   margin-top: 15px;
-  border-radius: 15px;
-
-  filter: drop-shadow(8px 8px 5px #2c2c2c23);
+  border: solid, 3px, #111111;
 }
 
 body
 {
   text-align: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Courier Prime', monospace;
 
   color: #2c2c2c;
-  background-color: #4daecf;
+  background-color: #1b8e8e;
 }
 
 footer{
@@ -58,17 +51,14 @@ footer{
   padding: 12px;
   line-height:45px;
   
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Courier Prime', monospace;
   font-size: 18px;
   text-decoration: none;
 
   background-color: #fce095;
   color:#2c2c2c;
 
-  border: transparent;
-  border-radius: 16px;
-
-  filter: drop-shadow(8px 8px 5px #2c2c2c23);
+  border: solid, 3px, #111111;
   
   transition-duration: 0.15s;
   cursor:pointer;
