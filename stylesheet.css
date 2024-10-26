@@ -3,11 +3,10 @@ div
   margin-left: 30%;
   margin-right: 30%;
 
-
   padding: 30px;
   width: 40%;
 
-  border: solid, 3px, #111111;
+  border: solid, 2.5px, #111111;
 
   background-color: #ffffff;
 }
@@ -33,17 +32,27 @@ div
 
 body
 {
+  height: 100%; 
   text-align: center;
   font-family: 'Courier Prime', monospace;
 
   color: #2c2c2c;
-  background-color: #1b8e8e;
+
+  background: linear-gradient(135deg, #9ee4ff, #f48cff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 footer{
   bottom: 0;
-  position: absolute;
+  position: fixed;
   padding: 15px;
+}
+
+hr{
+  margin-bottom: 15px;
+  
+  border: solid, 1.5px, #2c2c2c;
 }
 
 .button
@@ -56,9 +65,9 @@ footer{
   text-decoration: none;
 
   background-color: #fce095;
-  color:#2c2c2c;
+  color: #2c2c2c;
 
-  border: solid, 3px, #111111;
+  border: solid, 2.5px, #2c2c2c;
   
   transition-duration: 0.15s;
   cursor:pointer;
