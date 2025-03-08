@@ -9,6 +9,8 @@ div
   border: solid, 2.5px, #111111;
 
   background-color: #ffffff;
+
+  box-shadow: 5px 5px;
 }
 
 .project
@@ -37,10 +39,7 @@ body
   font-family: 'Courier Prime', monospace;
 
   color: #2c2c2c;
-
-  background: linear-gradient(135deg, #9ee4ff, #f48cff);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #c4c4c4;
 }
 
 footer{
@@ -68,9 +67,11 @@ hr{
   color: #2c2c2c;
 
   border: solid, 2.5px, #2c2c2c;
-  
+
   transition-duration: 0.15s;
   cursor:pointer;
+
+  box-shadow: 5px 5px;
 }
 
 .button:hover
