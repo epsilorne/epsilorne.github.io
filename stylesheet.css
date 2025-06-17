@@ -6,7 +6,7 @@ div
   padding: 30px;
   width: 40%;
 
-  border: solid, 2.5px, #111111;
+  border: solid 2.5px #2c2c2c;
 
   background-color: #ffffff;
 
@@ -51,7 +51,7 @@ footer{
 hr{
   margin-bottom: 15px;
   
-  border: solid, 1.5px, #2c2c2c;
+  border: solid 1.5px #2c2c2c;
 }
 
 .button
@@ -66,7 +66,7 @@ hr{
   background-color: #fce095;
   color: #2c2c2c;
 
-  border: solid, 2.5px, #2c2c2c;
+  border: solid 2.5px #2c2c2c;
 
   transition-duration: 0.15s;
   cursor:pointer;
