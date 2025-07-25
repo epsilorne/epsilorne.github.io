@@ -1,0 +1,19 @@
+{
+  "name": "epsilorne.github.io",
+  "version": "1.0.0",
+  "description": "my portfolio/blog",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf _site",
+    "compile": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "epsilorne",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
+  }
+}
