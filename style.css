@@ -1,0 +1,86 @@
+:root {
+  --primary-fg: #0f0f0f;
+  --primary-bg: #f2f2f2;
+  --secndry-bg: #e1e1e1;
+
+  --dropshadow: #0f0f0f;
+}
+
+html.dark {
+  --primary-fg: #c4c4c4;
+  --primary-bg: #1a1a1a;
+  --secndry-bg: #141414;
+
+  --link-deflt: #4da6ff;
+  --link-vistd: #9966cc;
+}
+
+html.dark a:not([class]) {
+  color: var(--link-deflt);
+}
+
+html.dark a:not([class]):visited {
+  color: var(--link-vistd);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  color: var(--primary-fg);
+  background-color: var(--secndry-bg);
+
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+
+  padding: 4%;
+
+  border: solid 2px var(--primary-fg);
+  border-radius: 10px;
+
+  filter: drop-shadow(8px 8px 0px var(--dropshadow));
+
+  background-color: var(--primary-bg);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+
+  filter: drop-shadow(2px 2px 0px var(--dropshadow));
+}
+
+.nav_item {
+  margin: 10px;
+
+  color: var(--primary-fg);
+  background-color: var(--primary-bg);
+
+  padding: 8px 15px;
+
+  border: solid 2px var(--primary-fg);
+  border-radius: 10px;
+}
+
+.nav_item:hover {
+  background-color: var(--secndry-bg);
+}
+
+.epsilorne_logo {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.floaty {
+  bottom: 0;
+  position: fixed;
+  padding: 15px;
+}
