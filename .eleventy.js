@@ -1,7 +1,7 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("blog/style.css");
+  eleventyConfig.addPassthroughCopy("blog/_includes/style.css");
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["gif"],

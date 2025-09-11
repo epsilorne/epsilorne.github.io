@@ -3,8 +3,11 @@ title: Projects
 layout: default 
 ---
 
-# My Projects
+# Projects
 
 For all of my projects, see my [Github](https://www.github.com/epsilorne?tab=repositories).
 
-Otherwise, this page is under costruction...
+## koiSh
+A (non-POSIX) toy shell, mainly written to learn the innards of how a shell works.
+
+[Source Code](https://github.com/epsilorne/koiSh)

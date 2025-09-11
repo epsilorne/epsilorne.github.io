@@ -3,6 +3,6 @@ title: Hi!
 layout: default 
 ---
 
-# Hi!
+# hello
 
-I'm a third year university student studying computer science, with an interest in lower-level programming.
+I'm a third-year university student studying computer science, and a C-enjoyer.
