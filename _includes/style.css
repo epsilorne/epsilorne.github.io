@@ -6,23 +6,6 @@
   --dropshadow: #0f0f0f;
 }
 
-html.dark {
-  --primary-fg: #c4c4c4;
-  --primary-bg: #1a1a1a;
-  --secndry-bg: #141414;
-
-  --link-deflt: #4da6ff;
-  --link-vistd: #9966cc;
-}
-
-html.dark a:not([class]) {
-  color: var(--link-deflt);
-}
-
-html.dark a:not([class]):visited {
-  color: var(--link-vistd);
-}
-
 img {
   width: 100%;
   height: auto;
@@ -32,22 +15,25 @@ body {
   color: var(--primary-fg);
   background-color: var(--secndry-bg);
 
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Victor Mono", monospace;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
 }
 
 .container {
-  margin: auto;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
+.island {
+  width: 80%;
   padding: 4%;
 
   border: solid 2px var(--primary-fg);
-  border-radius: 10px;
-
   filter: drop-shadow(8px 8px 0px var(--dropshadow));
-
   background-color: var(--primary-bg);
 }
 
@@ -67,7 +53,6 @@ body {
   padding: 8px 15px;
 
   border: solid 2px var(--primary-fg);
-  border-radius: 10px;
 }
 
 .nav_item:hover {
@@ -75,12 +60,14 @@ body {
 }
 
 .epsilorne_logo {
-  text-align: center;
-  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 2%;
 }
 
-.floaty {
-  bottom: 0;
-  position: fixed;
-  padding: 15px;
+.epsilorne_logo > img {
+  width: 50%;
+  max-width: 500px;
 }
