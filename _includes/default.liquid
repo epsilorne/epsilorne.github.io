@@ -1,3 +1,6 @@
+---
+title: DEFAULT_TITLE
+---
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +9,7 @@
     <link rel="stylesheet" href="/_includes/syntax.css">
     <link rel="icon" href="https://github.com/epsilorne.png">
 
-    <title>Projects</title>
+    <title>{{ title }}</title>
   </head>
 
   <body>
@@ -33,13 +36,9 @@
 
         <hr>
 
-        <h1>Projects</h1>
+        <h1>{{ title }}</h1>
 
-        <p>For all of my projects, see my <a href="https://www.github.com/epsilorne?tab=repositories">Github</a>.</p>
-<h2>koiSh</h2>
-<p>A (non-POSIX) toy shell, mainly written to learn the innards of how a shell works.</p>
-<p><a href="https://github.com/epsilorne/koiSh">Source Code</a></p>
-
+        {{ content }}
       </div>
     </div>
   </body>

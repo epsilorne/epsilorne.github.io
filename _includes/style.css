@@ -1,9 +1,7 @@
 :root {
-  --primary-fg: #0f0f0f;
-  --primary-bg: #f2f2f2;
-  --secndry-bg: #e1e1e1;
-
-  --dropshadow: #0f0f0f;
+  --primary-fg: #000000;
+  --primary-bg: #ffffff;
+  --secondary-bg: #e1e1e1;
 }
 
 img {
@@ -13,12 +11,16 @@ img {
 
 body {
   color: var(--primary-fg);
-  background-color: var(--secndry-bg);
+  background-color: var(--primary-bg);
 
-  font-family: "Victor Mono", monospace;
+  font-family: monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+}
+
+li {
+  padding-left: 2%;
 }
 
 .container {
@@ -26,37 +28,30 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+
+  padding-bottom: 10%;
 }
 
 .island {
-  width: 80%;
-  padding: 4%;
-
-  border: solid 2px var(--primary-fg);
-  filter: drop-shadow(8px 8px 0px var(--dropshadow));
-  background-color: var(--primary-bg);
+  width: 800px;
+  padding: 100px 10%;
 }
 
 .nav {
   display: flex;
   justify-content: center;
-
-  filter: drop-shadow(2px 2px 0px var(--dropshadow));
 }
 
 .nav_item {
   margin: 10px;
 
   color: var(--primary-fg);
-  background-color: var(--primary-bg);
 
   padding: 8px 15px;
-
-  border: solid 2px var(--primary-fg);
 }
 
 .nav_item:hover {
-  background-color: var(--secndry-bg);
+  background-color: var(--secondary-bg);
 }
 
 .epsilorne_logo {
@@ -64,10 +59,12 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding-bottom: 2%;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+
+  padding-bottom: 5%;
 }
 
-.epsilorne_logo > img {
-  width: 50%;
-  max-width: 500px;
+hmmm {
+  ...: aGksIHRoYW5rIHlvdSBmb3IgZGVjb2RpbmcgdGhpcw==
 }
