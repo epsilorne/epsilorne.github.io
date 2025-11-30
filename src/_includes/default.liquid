@@ -1,0 +1,45 @@
+---
+title: DEFAULT_TITLE
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/_includes/style.css">
+    <link rel="stylesheet" href="/_includes/syntax.css">
+    <link rel="icon" href="https://github.com/epsilorne.png">
+
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="island">
+        <div class="epsilorne_logo">
+          <strong>
+            <pre>
+▄███▄   █ ▄▄    ▄▄▄▄▄   ▄█ █    ████▄ █▄▄▄▄   ▄   ▄███▄  
+█▀   ▀  █   █  █     ▀▄ ██ █    █   █ █  ▄▀    █  █▀   ▀ 
+██▄▄    █▀▀▀ ▄  ▀▀▀▀▄   ██ █    █   █ █▀▀▌ ██   █ ██▄▄   
+█▄   ▄▀ █     ▀▄▄▄▄▀    ▐█ ███▄ ▀████ █  █ █ █  █ █▄   ▄▀
+▀███▀    █               ▐     ▀        █  █  █ █ ▀███▀  
+          ▀                            ▀   █   ██        
+            </pre>
+          </strong>
+        </div>
+
+        <div class="nav">
+          <a class="nav_item" href="/">Home</a>
+          <a class="nav_item" href="/projects">Projects</a>
+          <a class="nav_item">Blog (coming soon)</a>
+        </div>
+
+        <hr>
+
+        <h1>{{ title }}</h1>
+
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
