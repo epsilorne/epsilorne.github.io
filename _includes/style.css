@@ -1,7 +1,8 @@
 :root {
-  --primary-fg: #000000;
-  --primary-bg: #ffffff;
+  --primary-fg: #262626;
+  --primary-bg: #e8e8e8;
   --secondary-bg: #e1e1e1;
+  --font-size: 1.2rem;
 }
 
 img {
@@ -16,7 +17,7 @@ body {
   font-family: monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: var(--font-size);
 }
 
 li {
@@ -33,21 +34,20 @@ li {
 }
 
 .island {
-  width: 800px;
-  padding: 100px 10%;
+  min-width: 300px;
+  max-width: 70%;
+  padding: 10rem 0;
 }
 
 .nav {
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
 
 .nav_item {
-  margin: 10px;
-
   color: var(--primary-fg);
-
-  padding: 8px 15px;
+  padding: 0.5rem 1rem;
 }
 
 .nav_item:hover {
@@ -60,11 +60,5 @@ li {
   align-items: center;
 
   letter-spacing: -0.5px;
-  line-height: 16px;
-
-  padding-bottom: 5%;
-}
-
-hmmm {
-  ...: aGksIHRoYW5rIHlvdSBmb3IgZGVjb2RpbmcgdGhpcw==
+  line-height: var(--font-size);
 }

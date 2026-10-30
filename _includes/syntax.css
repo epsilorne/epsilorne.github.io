@@ -43,7 +43,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code {
-	padding: 0.15% 1.5%;
+	padding: 0.15% 0.85%;
 	white-space: normal;
   color: var(--primary-fg);
 	background: var(--secondary-bg);
