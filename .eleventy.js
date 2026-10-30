@@ -5,6 +5,7 @@ import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 export default function (eleventyConfig) {
   // note: relative to root dir
   eleventyConfig.addPassthroughCopy("src/_includes");
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["gif"],
