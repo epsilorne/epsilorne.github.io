@@ -1,9 +1,7 @@
 ---
-title: Blog
+title: Blog Posts
 layout: default
 ---
-
-testing...
 
 <ul>
 {% for post in collections.post reversed %}

@@ -2,6 +2,8 @@
 title: Hi
 layout: default 
 ---
-I'm a CS major with an interest in both systems programming and cybersecurity.
 
-This website contains some projects I've worked on, as well as some (coming soon™) writeups for projects and CTFs.
+`$ whoami`
+
+I'm a computer science major, who is focusing on systems and lower-level programming.
+But I also enjoy occasionally working on somewhat-practical projects, which you can find [here](/projects).
